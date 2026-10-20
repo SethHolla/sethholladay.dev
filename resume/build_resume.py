@@ -119,7 +119,7 @@ story = [
               "in cleanly.",
               "Co-developed core gameplay systems, including a targeting system built into the networking layer.",
           ], first=True),
-    entry("Jetty Games", "Sep 2026 – Present", "Co-Founder &amp; Engineering Producer", "Salt Lake City, UT", [
+    entry("Jetty Games", "Mar 2026 – Present", "Co-Founder &amp; Engineering Producer", "Salt Lake City, UT", [
         "Co-founded a 10-person indie team of programmers, artists, and designers that shipped games on jam deadlines.",
         "Led programming on each project, guiding the codebase and coordinating engineers to ship on time.",
     ]),
