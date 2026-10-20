@@ -3,7 +3,9 @@
     <head>
       <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
       <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-      <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' }}" >
+      <link rel="icon" type="image/png" sizes="64x64" href="{{ '/assets/favicon.png' | prepend: site.baseurl }}">
+      <link rel="icon" sizes="any" href="{{ '/assets/favicon.ico' | prepend: site.baseurl }}">
+      <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | prepend: site.baseurl }}">
       <script>
         window.location.replace("https://austingenereeve.itch.io/one-true-door")
       </script>

@@ -22,8 +22,8 @@
       <change afterPath="$PROJECT_DIR$/assets/images/twitch.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/ubuntu.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/unity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/tanner-holladay.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/tanner-photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/seth-holladay.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/seth-photo.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/_bootstrap.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/_circle.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/styles/_contact.scss" afterDir="false" />
@@ -167,15 +167,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="\\wsl$\Ubuntu\home\tannerh\projects\tannerholladay\src\styles" />
-      <recent name="\\wsl$\Ubuntu\home\tannerh\projects\tannerholladay\assets\css" />
-      <recent name="\\wsl$\Ubuntu\home\tannerh\projects\tannerholladay\assets" />
-      <recent name="D:\projects\tannerholladay\assets\images\projects" />
-      <recent name="D:\projects\tannerholladay\_includes" />
+      <recent name="\\wsl$\Ubuntu\home\sethh\projects\sethholladay\src\styles" />
+      <recent name="\\wsl$\Ubuntu\home\sethh\projects\sethholladay\assets\css" />
+      <recent name="\\wsl$\Ubuntu\home\sethh\projects\sethholladay\assets" />
+      <recent name="D:\projects\sethholladay\assets\images\projects" />
+      <recent name="D:\projects\sethholladay\_includes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="\\wsl$\Ubuntu\home\tannerh\projects\tannerholladay\assets\images" />
-      <recent name="D:\projects\tannerholladay\assets\images\projects" />
+      <recent name="\\wsl$\Ubuntu\home\sethh\projects\sethholladay\assets\images" />
+      <recent name="D:\projects\sethholladay\assets\images\projects" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

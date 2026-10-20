@@ -1,30 +1,30 @@
 <div id="particles-js">
     <div class="menu-bar">
         <ul>
-            <li><a target="_blank" href="assets/tanner-holladay.pdf">Resume</a></li>
-            <li><a href="" data-toggle="modal" data-target="#contact">Contact</a></li>
+            <li><a target="_blank" rel="noopener" href="assets/seth-holladay.pdf">Resume</a></li>
+            <li><a href="#contact" data-toggle="modal" data-target="#contact">Contact</a></li>
         </ul>
     </div>
     <div class="header">
-        <div class="profile-photo circle-border"><img src="assets/tanner-photo.jpg" alt="profile-photo"></div>
+        <div class="profile-photo circle-border"><img src="assets/seth-photo.jpg" alt="Photo of {{ site.username }}"></div>
         <h1>
             <span class="site-title">{{ site.username }}</span>
             <span class="site-description">{{ site.user_title }}</span>
         </h1>
         <div class="header-icons">
-            <a class="icon circle-border" aria-label="Send email" href="mailto:tannerholladay6@gmail.com"><i
-                    class="fa fa-envelope"></i></a>
-            <a class="icon circle-border" aria-label="My LinkedIn" target="_blank"
-               href="https://www.linkedin.com/in/tannerholladay"><i
+            <a class="icon circle-border" aria-label="Send email" href="mailto:{{ site.email }}"><i
+                    class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="icon circle-border" aria-label="My LinkedIn" target="_blank" rel="noopener"
+               href="https://www.linkedin.com/in/sethholladay"><i
                     class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            <a class="icon circle-border" aria-label="My Github" target="_blank" href="https://github.com/tannerholladay"><i
+            <a class="icon circle-border" aria-label="My Github" target="_blank" rel="noopener" href="https://github.com/{{ site.github_username }}"><i
                     class="fa fa-github-alt" aria-hidden="true"></i></a>
         </div>
         <div class="header-links">
             <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
         </div>
     </div>
-    <a target="_blank" class="background-link" href="https://codepen.io/tannerholladay/pen/YzNawzo">View background on Codepen!</a>
-    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    <a target="_blank" rel="noopener" class="background-link" href="https://codepen.io/sethholladay/pen/YzNawzo">View background on Codepen!</a>
+    <a class="down" href="#about" aria-label="Scroll to About" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
     <canvas></canvas>
 </div>

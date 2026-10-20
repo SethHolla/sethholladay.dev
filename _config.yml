@@ -1,17 +1,18 @@
 # Site settings
-title: Tanner Holladay
+title: Seth Holladay
+url: "https://sethholladay.dev"
 description: Software engineer studying computer science at the University of Utah.
 
 # User settings
-username: Tanner Holladay
-user_description: "Hi there! My name is Tanner, and I am a software engineer studying Computer Science at the
+username: Seth Holladay
+user_description: "Hi there! My name is Seth, and I am a software engineer studying Computer Science at the
 University of Utah. My passion for programming started at a very young age of 12 years old by developing games on a
 platform called Roblox (An online game platform and game creation system designed for kids). I have since moved on to
 create games in Unity3D and do web development. As I have continued my path in becoming a programmer, I have enjoyed
 every second of it. I think of myself as very creative, problem-solving, and self-motivated - all of which are very
 important and useful in programming."
 user_title: Software Engineer
-email: tannerholladay6@gmail.com
-github_username: TannerHolladay
+email: sethholladay6@gmail.com
+github_username: SethHolladay
 
-exclude: [ 'package.json', 'src' , 'node_modules' ]
+exclude: [ 'package.json', 'package-lock.json', 'gulpfile.js', 'src', 'node_modules', '.idea' ]
