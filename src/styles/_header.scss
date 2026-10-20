@@ -388,3 +388,14 @@ canvas {
     }
   }
 }
+// Inline SVG icons: size follows font-size, color follows `color` (so hover states still work)
+.header-icons .icon i svg,
+.down .icon svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+}
+
+.down .icon svg {
+  margin: 0 auto;
+}
