@@ -1,20 +1,29 @@
 .footer {
   background: $main;
-  padding: 10px 0;
+  padding: 40px 0;
   text-align: center;
-  color: #FFF;
-  .love {
-    color: red;
+  color: rgba(255, 255, 255, .7);
+  font-size: .9rem;
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 12px;
   }
+
   a {
     text-decoration: none;
-    margin: 0;
     color: #FFF;
-    &:hover{
-      color: $sec;
+    font-weight: 500;
+
+    &:hover, &:focus {
+      color: lighten($accent, 20%);
+      text-decoration: none;
     }
-    &:active {
-      color: $sec;
-    }
+  }
+
+  p {
+    margin: 0;
   }
 }

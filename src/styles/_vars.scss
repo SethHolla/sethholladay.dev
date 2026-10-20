@@ -1,3 +1,15 @@
 $main: #1b1b1f;
 $sec: #4b5664;
 $mobile: 768px;
+
+$font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+$text: #1f2933;
+$muted: #5f6b7a;
+$page: #f4f5f7;
+$card: #ffffff;
+$border: #e3e6ea;
+$accent: #2563eb;
+
+// Bootstrap picks these up because its variables are declared with !default
+$font-family-sans-serif: $font;
+$font-size-base: 16px;

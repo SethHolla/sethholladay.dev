@@ -1,72 +1,87 @@
 #about {
-  .line {
-    border-left: thick solid #b5b5b5;
+  .intro {
+    max-width: 680px;
+    margin: 0 auto 48px;
+    font-size: 1.125rem;
+    color: $muted;
+
+    p {
+      margin: 0 0 1em;
+    }
   }
+}
 
-  font-size: 120%;
+.skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
 
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
   @media only screen and (min-width: $mobile) {
-    width: 80%;
-  }
-
-  svg, img {
-    width: 60px !important;
-    height: 60px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-  margin: 5px auto;
+.skill {
+  padding: 28px;
+  background: $card;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, .04);
+  transition: transform .2s ease, box-shadow .2s ease;
 
-  h1 {
-    font-weight: 400;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(16, 24, 40, .08);
   }
-}
 
-.tech {
-  margin: 10px;
-  flex: 1 1 0;
-  align-content: center;
-  justify-content: center;
-
-  h2, h3 {
-    font-weight: 400;
-    padding: 0;
-    margin-top: 0;
+  h3 {
+    margin: 0 0 16px;
+    font-size: 1.25rem;
+    font-weight: 600;
   }
-}
 
-.user {
-  text-align: center;
-  font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  .icons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    i {
+      font-size: 40px;
+      line-height: 1;
+    }
+  }
 
   p {
-    font-size: 16px;
+    margin: 0;
+    font-size: .95rem;
+    color: $muted;
   }
 
-  @media only screen and (min-width: $mobile) {
-    flex-wrap: nowrap;
-    font-size: 75px;
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: $page;
+      border: 1px solid $border;
+      font-size: .8rem;
+      font-weight: 500;
+      color: $text;
+    }
   }
 }
 
-.user-details {
-  text-align: center;
-  margin: 5px auto;
-
-  h1 {
-    font-weight: 400;
-  }
+#about .intro strong {
+  color: $text;
 }
