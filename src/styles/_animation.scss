@@ -53,12 +53,12 @@
 
 @keyframes slide {
     0% { transform: translate(0, -50%); opacity: 0; }
-    100% { transform: translate(0, 0); opacity: 100; }
+    100% { transform: translate(0, 0); opacity: 1; }
 }
 
 @keyframes slide-up {
     0% { transform: translate(0, 50%); opacity: 0; }
-    100% { transform: translate(0, 0); opacity: 100; }
+    100% { transform: translate(0, 0); opacity: 1; }
 }
 
 @keyframes bounce-up {
@@ -69,5 +69,21 @@
 
 @keyframes grow {
     0% { transform: scale(0); opacity: 0; }
-    100% { transform: scale(1); opacity: 100; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fade-up {
+    0% { transform: translateY(12px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+// Skip the intro for visitors who ask their OS for less motion
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-delay: 0s !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
