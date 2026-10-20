@@ -12,4 +12,4 @@ user_title: Game Programmer
 email: sethholladay6@gmail.com
 github_username: SethHolla
 
-exclude: [ 'package.json', 'package-lock.json', 'gulpfile.js', 'src', 'node_modules', '.idea' ]
+exclude: [ 'package.json', 'package-lock.json', 'gulpfile.js', 'src', 'node_modules', '.idea', 'resume' ]

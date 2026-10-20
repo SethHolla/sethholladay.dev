@@ -1,4 +1,21 @@
-.sass-cache/
-.jekyll-metadata
-node_modules
+# Jekyll
 _site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Node / gulp
+node_modules/
+npm-debug.log*
+
+# Python (resume builder)
+__pycache__/
+*.pyc
+
+# Editors and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini

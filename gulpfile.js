@@ -47,7 +47,7 @@ gulp.task('sass', () => {
         .pipe(plumber())
         .pipe(sass({quietDeps: true, silenceDeprecations: ['import', 'global-builtin', 'color-functions', 'slash-div']}))
         .pipe(csso())
-        .pipe(gulp.dest('assets/css/'));
+        .pipe(gulp.dest('css/'));
 });
 
 /*
@@ -56,7 +56,7 @@ gulp.task('sass', () => {
 gulp.task('fonts', () => {
     return gulp.src('src/fonts/**/*.{ttf,woff,woff2}', {encoding: false})
         .pipe(plumber())
-        .pipe(gulp.dest('assets/fonts/'));
+        .pipe(gulp.dest('fonts/'));
 });
 
 /**
@@ -67,7 +67,7 @@ gulp.task('js', () => {
         .pipe(plumber())
         .pipe(concat('main.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('assets/js/'));
+        .pipe(gulp.dest('js/'));
 });
 
 gulp.task('watch', (done) => {
