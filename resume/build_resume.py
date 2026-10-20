@@ -107,9 +107,9 @@ story = [
     header,
     HRFlowable(width="100%", thickness=1.4, color=INK, spaceBefore=8, spaceAfter=7),
     Paragraph(
-        "Gameplay programmer specializing in character control and multiplayer systems. Spent five years building "
-        "<i>It Was You</i>, an online murder mystery for 5–12 players coming to Steam, alongside four years of "
-        "professional software engineering. Proficient in C# and C++ with Unity and Unreal Engine.", summary_style),
+        "Game programmer who pairs four years of professional software engineering with a love of building games. "
+        "Writes clean, performant C# and C++ in Unity and Unreal Engine, and works well on fast-moving teams.",
+        summary_style),
 
     *section("Game Development Experience"),
     entry(f"Snowfall Games {dim('|')} <i>It Was You</i> (Steam)", "Sep 2020 – Aug 2025", "Game Engineer",
@@ -120,9 +120,8 @@ story = [
               "Co-developed core gameplay systems, including a targeting system built into the networking layer.",
           ], first=True),
     entry("Jetty Games", "Sep 2026 – Present", "Co-Founder &amp; Engineering Producer", "Salt Lake City, UT", [
-        "Co-founded a 10-person indie team that ships complete games on jam deadlines, including <i>Attiction</i>.",
-        "Program gameplay while also producing: set milestones and run meetings that keep art, design, and audio "
-        "in sync.",
+        "Co-founded a 10-person indie team of programmers, artists, and designers that shipped games on jam deadlines.",
+        "Led programming on each project, guiding the codebase and coordinating engineers to ship on time.",
     ]),
 
     *section("Software Engineering Experience"),
@@ -146,10 +145,12 @@ story = [
     ]),
 
     *section("Game Jam Projects"),
-    Paragraph("<b>Matter of Factory</b> – Engineer &amp; Producer, 1-Bit Jam 11. One of two engineers on a "
-              "factory-automation game.", bullet_style, bulletText=BULLET),
-    Paragraph("<b>Luci Forever</b> – Engineer &amp; Artist, Maxwell Rodgers Memorial Jam 2026. Coded and drew "
-              "art for a cozy pet sim.", bullet_style, bulletText=BULLET),
+    Paragraph("<b>Matter of Factory</b> – Engineer &amp; Producer, 1-Bit Jam 11. One of two programmers on a "
+              "browser-based factory builder where players harvest Dark Matter and route it through machines and "
+              "conveyors to power the factory.", bullet_style, bulletText=BULLET),
+    Paragraph("<b>Luci Forever</b> – Engineer &amp; Artist, Maxwell Rodgers Memorial Jam 2026. Programmed gameplay "
+              "and drew pixel art for a cozy browser pet sim about raising a shrimp that arrives in a mystery "
+              "package.", bullet_style, bulletText=BULLET),
     Paragraph("<b>One True Door</b> – Developer, week-long Unity game jam. Built a complete game from scratch with "
               "a team of three.", bullet_style, bulletText=BULLET),
 
