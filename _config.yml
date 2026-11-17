@@ -1,15 +1,15 @@
 # Site settings
-title: Seth Holladay | Game Programmer
+title: Seth Holladay | Software Engineer & Game Developer
 url: "https://sethholladay.dev"
-description: Game programmer and Computer Science student at the University of Utah, building games in Unity and Unreal with C# and C++.
+description: Software engineer and game developer studying Computer Science at the University of Utah. Full-stack web experience plus multiplayer games built in Unity with C#.
 
 # User settings
 username: Seth Holladay
-user_description: "I'm a game programmer and Computer Science student at the University of Utah. I wrote my first
-game on Roblox when I was 12 and haven't stopped since. Today I build games in Unity and Unreal Engine, working mostly
-in C# and C++."
-user_title: Game Programmer
+user_description: "I'm a software engineer and game developer studying Computer Science at the University of Utah.
+I wrote my first game on Roblox when I was 12 and haven't stopped since. Today I build games in Unity with C#,
+alongside professional full-stack work in TypeScript, React, and PostgreSQL."
+user_title: Software Engineer & Game Developer
 email: sethholladay6@gmail.com
 github_username: SethHolla
 
-exclude: [ 'package.json', 'package-lock.json', 'gulpfile.js', 'src', 'node_modules', '.idea', 'resume' ]
+exclude: [ 'package.json', 'package-lock.json', 'gulpfile.js', 'src', 'node_modules', '.idea', 'resume', 'seth-holladay-software.pdf' ]
